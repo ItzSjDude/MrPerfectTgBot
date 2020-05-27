@@ -16,7 +16,7 @@ async def _(event):
         s_help_string = borg._plugins[splugin_name].__doc__
     else:
         s_help_string = ""
-    help_string = """ᖘꀤꀘꍏꉓꃅꀎ ᖘꋪꀤᐯ꓄ꍟ ꌃꂦ꓄\nStatus : Online Hu Sur 🤤\n
+    help_string = """ꀤꋖꁴꌚꀭꂡꌈꂡꏹ'ꌚ ꃃꁏꋖ\nStatus : Online Hu Sur 🤤\n
 
 Python {}
 Telethon {}
