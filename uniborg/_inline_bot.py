@@ -76,7 +76,7 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 buttons=buttons,
                 link_preview=True
             )
-        elif query.startswith("𝐈𝐭𝐳𝐒𝐣𝐃𝐮𝐝𝐞'𝐬"):
+        elif query.startswith("ꀤꋖꁴꌚꀭꂡꌈꂡꏹ'ꌚ"):
             result = builder.article(
                 "Button Parser © @ItzSjDude",
                 text=f"powered by @ItzSjDude",
@@ -95,7 +95,7 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
 **Custom Built Fork:** https://github.com/ItzSjDude/MrPerfectTgBot""",
                 buttons=[
                     [custom.Button.url("👤Contact Creator👤", "https://telegram.dog/Itz_Sj_Dude"), custom.Button.url(
-                        "🎞My YouTube Channel🎞", "https://www.youtube.com/channel/UCeKQxQK7XZ3jGi3541uWATg?sub_confirmation=1")],
+                        "🎞Instagram 🎞", "https://instagram.com/itz_sj_dude/")],
                     [custom.Button.url("🎛Source Code🎛", "https://github.com/mkaraniya/BotHub"), custom.Button.url(
                         "❕❗Deploy Me❗❕", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fmkaraniya%2FBotHub%2F&template=https%3A%2F%2Fgithub.com%2Fmkaraniya%2FBotHub%2F")],
                     [custom.Button.url("🔰Update Fork🔰", "tg://need_update_for_some_feature"), custom.Button.url(
@@ -137,7 +137,7 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             # https://t.me/PaperplaneExtended_news/55
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "Please get your own @Bot_Hub_Official™️, and don't edit my messages!"
+            reply_pop_up_alert = "Please get your own ItzSjDude's Bot ™️, and don't edit my messages!"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
@@ -151,7 +151,7 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         reply_pop_up_alert = help_string if help_string is not None else \
             "No DOCSTRING has been setup for {} plugin".format(plugin_name)
         reply_pop_up_alert += "\n\n Use .unload {} to remove this plugin\n\
-            © @Three_Cube_TeKnoways".format(plugin_name)
+            © @ItzSjDude".format(plugin_name)
         await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
