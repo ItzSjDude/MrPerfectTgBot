@@ -11,7 +11,7 @@ from telethon import TelegramClient
 from .uniborg import *
 
 os.system("pip install --upgrade pip")
-if Var.STRING_SESSION:
+if Config.STRING_SESSION:
     session_name = str(Var.STRING_SESSION)
     bot = TelegramClient(StringSession(session_name), Var.APP_ID, Var.API_HASH)
 else:
