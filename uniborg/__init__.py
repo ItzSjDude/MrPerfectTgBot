@@ -4,7 +4,4 @@
 
 from .uniborg import *
 
-    # Default .alive name
-    ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
-    
-    LESS_SPAMMY = os.environ.get("LESS_SPAMMY", True)
+   
