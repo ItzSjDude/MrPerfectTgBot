@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-from .uniborg import *
+
 import os
 import sys
 from telethon.sessions import StringSession
 from telethon import TelegramClient
 
-from var import Var
+from .uniborg import *
 
 os.system("pip install --upgrade pip")
 if Var.STRING_SESSION:
